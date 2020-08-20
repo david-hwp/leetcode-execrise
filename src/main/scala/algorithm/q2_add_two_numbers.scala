@@ -24,7 +24,7 @@ package algorithm
  * 链接：https://leetcode-cn.com/problems/add-two-numbers
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-object question2 {
+object q2_add_two_numbers {
 
   class ListNode(var _x: Int = 0) {
     var next: ListNode = null

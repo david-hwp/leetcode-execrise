@@ -15,7 +15,7 @@ import scala.collection.mutable
 因为 nums[0] + nums[1] = 2 + 7 = 9
 所以返回 [0, 1]
  */
-object question1 {
+object q1_two_sum {
   def twoSumMy(nums: Array[Int], target: Int): Array[Int] = {
     for (start <- nums.indices) {
       for (end <- start + 1 until nums.length) {
